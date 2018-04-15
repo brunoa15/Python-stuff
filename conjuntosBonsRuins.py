@@ -27,7 +27,8 @@ while True:
                 if resposta == 'Conjunto Ruim':
                     break
 
-            conjunto += [palavra]
+            #tambem funciona desse jeito conjunto += [palavra]
+            conjunto.append(palavra)
 
         print(resposta)
 
