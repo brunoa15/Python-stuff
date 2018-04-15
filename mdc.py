@@ -13,4 +13,7 @@ def mdc(a, b):
     else:
         return mdc(b,r)
 
-print(mdc(635,1400))
+x = int(input())
+y = int(input())
+
+print('mdc = %d' % mdc(x,y))
